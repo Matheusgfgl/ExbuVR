@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Inicial.unity
+    guid: 662c17cc2d4f54846833d1ade5de6427
+  - enabled: 1
+    path: Assets/Scenes/Inicio2d.unity
+    guid: dc127f1c09906954986fff62cc0b63a7
+  - enabled: 1
+    path: Assets/Scenes/Inicio3d.unity
+    guid: 277073737a606c44498991d07d2ca7b9
+  - enabled: 1
+    path: Assets/Scenes/InicioAmbos.unity
+    guid: e4d5e42c67c7d3a429de1e9be8284d55
+  - enabled: 1
+    path: Assets/Scenes/TelaMensagem.unity
+    guid: c41743e7992306940a0c209d2350c734
+  - enabled: 1
+    path: Assets/Scenes/2d.unity
+    guid: ff3c9e468f035f4499ca41955e13fc0e
+  - enabled: 1
+    path: Assets/Scenes/Escolha.unity
+    guid: 90fc0d8a0efacfd46968d515c4f830b3
+  - enabled: 1
+    path: Assets/Scenes/Carregar.unity
+    guid: ee0f970c723e1c1408cb4809d87451d4
+  - enabled: 0
+    path: Assets/Scenes/2dd.unity
+    guid: 7b5217c4d66686e42ab64c164ee4a8bc
+  - enabled: 0
+    path: Assets/Scenes/InicialConfigurado.unity
+    guid: c91775da4e60f8746874037fca7bbfb3
+  - enabled: 1
+    path: Assets/Scenes/Cena1.unity
+    guid: 3f839ff909db9b049be2bc7789bf8b85
+  - enabled: 1
+    path: Assets/Scenes/Fisio.unity
+    guid: 339410f293e06204e8c0f5039cb3fc05
+  - enabled: 1
+    path: Assets/Scenes/Cena3.unity
+    guid: caed7fc6111c1b047bdcdb512f2bb310
+  - enabled: 1
+    path: Assets/Scenes/Cena4.unity
+    guid: 1f179118be3662541bf5dcc27b270b3a
+  - enabled: 1
+    path: Assets/Scenes/Cena2.unity
+    guid: eb2f0a2fb9e189d4b9f8bd4f01b79afa
+  - enabled: 1
+    path: Assets/Scenes/Carregar3d.unity
+    guid: c1f7ba5d59e2d4241bf6c2cc865fb9dc
+  - enabled: 1
+    path: Assets/Scenes/Escolha3d.unity
+    guid: 5cc477cbab97c104d8a0aa52c1527e1a
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: ce18193cf846afb40bdf83210dcb8ed6
+  m_configObjects: {}

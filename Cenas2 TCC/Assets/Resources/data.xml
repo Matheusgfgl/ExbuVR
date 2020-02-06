@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<scenes>
+  <scene name = "Opening">
+
+    <options>
+      <option> {1} Go to town center</option>
+      <option> {2} Go to town center</option>
+      <option> {3} Go to town center</option>
+      <option> {4} Go to town center</option>
+    </options> 
+  </scene>
+</scenes>
