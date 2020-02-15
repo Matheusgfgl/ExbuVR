@@ -82,7 +82,8 @@ public class Controla : MonoBehaviour
         c.tempoD = Convert.ToInt16(TempoD);
         c.tempoA = Convert.ToInt16(TempoA);
 
-        if (c.tempo >= 5 && (c.tempo <= 10)) {
+        if (c.tempo >= 5 && (c.tempo <= 10))
+        {
             if (velocidade >= 5 && velocidade <= 10)
             {
                 if (c.tipo == 1 || c.tipo == 2)
@@ -94,14 +95,11 @@ public class Controla : MonoBehaviour
                     i++;
                     if (c.tipo == 2)
                         Aleatorio();
-                }
-                    else
+                } else
                     erro.SetActive(true);
-            }
-            else
+            }else
                 erroV.SetActive(true);
-            }
-        else
+       }else
             erroT.SetActive(true);
 
     }
@@ -238,8 +236,7 @@ public class Controla : MonoBehaviour
     public void errorTipo()
     {
         erro.SetActive(false);
-        
-      
+         
     }
     public void errorTempo()
     {

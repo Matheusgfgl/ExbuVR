@@ -527,7 +527,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 533020181}
-        m_MethodName: VoltarEscolha
+        m_MethodName: VoltarEscolhaAmbos
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -822,7 +822,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 154.35019, y: -231.50002}
+  m_AnchoredPosition: {x: 154.35025, y: -231.50002}
   m_SizeDelta: {x: 896.4, y: 463}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &160179679
@@ -1484,7 +1484,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1748673741}
   m_Direction: 0
   m_Value: 0.99999946
-  m_Size: 0.67205346
+  m_Size: 0.6721887
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2813,7 +2813,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 154.35019, y: 82.15002}
+  m_AnchoredPosition: {x: 154.35025, y: 82.20627}
   m_SizeDelta: {x: 896.4, y: 463}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &452609082
@@ -8260,8 +8260,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1007251108}
   m_HandleRect: {fileID: 1007251107}
   m_Direction: 2
-  m_Value: 0.000000048649095
-  m_Size: 0.32257017
+  m_Value: 0
+  m_Size: 0.30401656
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8588,8 +8588,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 228560430}
   m_HandleRect: {fileID: 228560429}
   m_Direction: 0
-  m_Value: 0.99999946
-  m_Size: 0.67205346
+  m_Value: 1
+  m_Size: 0.6721887
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

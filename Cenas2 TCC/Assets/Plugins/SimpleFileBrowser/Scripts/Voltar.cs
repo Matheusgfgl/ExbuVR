@@ -19,18 +19,28 @@ public class Voltar : MonoBehaviour
         SceneManager.LoadScene("Carregar");
      
     }
-    public void Construir()
-    {
-        SceneManager.LoadScene("Inicio2d");
-    }
     public void Carregar3d()
     {
         SceneManager.LoadScene("Carregar3d");
 
     }
+    public void CarregarAmbos()
+    {
+        SceneManager.LoadScene("Carregar3d");
+
+    }
+    public void Construir()
+    {
+        SceneManager.LoadScene("Inicio2d");
+    }
+   
     public void Construir3d()
     {
         SceneManager.LoadScene("Inicio3d");
+    }
+    public void ConstruirAmbos()
+    {
+        SceneManager.LoadScene("InicioAmbos");
     }
     public void Sair()
     {
@@ -43,6 +53,10 @@ public class Voltar : MonoBehaviour
     public void VoltarEscolha3d()
     {
         SceneManager.LoadScene("Escolha3d");
+    }
+    public void VoltarEscolhaAmbos()
+    {
+        SceneManager.LoadScene("EscolhaAmbos");
     }
     public void SairErro()
     {

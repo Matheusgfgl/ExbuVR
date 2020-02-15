@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final.unity
     guid: ce18193cf846afb40bdf83210dcb8ed6
+  - enabled: 1
+    path: Assets/Scenes/EscolhaAmbos.unity
+    guid: 4567872b707eac74486d79bfacdbd0c3
   m_configObjects: {}

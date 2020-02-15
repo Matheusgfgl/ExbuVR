@@ -38,13 +38,15 @@ public class Inicio2d : MonoBehaviour
     {
         c.tipo = 0;
         c.tempo = 0;
-        TempoA = "";
-        TempoD = "";
+        c.tempoA = 0;
+        c.tempoD = 0;
+        TempoA = "A";
+        TempoD = "A";
     }
     public void Iniciar()
     {
         Entradas();
-        if (c.tempo == 0 || c.tipo == 0 || TempoA == " " || TempoD == " ")
+        if (c.tempo == 0 || c.tipo == 0 || c.tempoA == 0 || c.tempoD == 0)
         {
             erroV.SetActive(true);
         }
@@ -83,8 +85,6 @@ public class Inicio2d : MonoBehaviour
         {
             erroV.SetActive(true);
         }
-       
-
         //Convertendo para int
  
         c.tempoD = Convert.ToInt32(TempoD);
@@ -194,18 +194,18 @@ public class Inicio2d : MonoBehaviour
             }
         }
     }
-
+    //Adiciona uma imagem na lista de exibição
     public void Acicionar()
     {
         FileBrowser.ShowLoadDialog((path) => { c.url.Add(path); logControl.LogText(path); }, null, false, null, "Select Folder", "Select");
     }
     public void Remover()
     {
-        //Excluindo 
+        //Excluindo uma imagem da lista de exibição
         logControl.UnLogText();
         c.url.RemoveAt(c.url.Count - 1 );
     }
-
+    //
     public void Populate_list()
     {
         dropdown.AddOptions(tempos);
@@ -243,6 +243,7 @@ public class Inicio2d : MonoBehaviour
             foto.GetComponent<RawImage>().texture = loader.texture;
         }
     }
+    //Gerando numeros aleatorios 
     public void Aleatorio()
     {
         for (int i = 0; i < c.qtdImagens; i++)
@@ -326,6 +327,7 @@ public class Inicio2d : MonoBehaviour
         {
             Aleatorio();
         }
+        // Utiliza o file browser para navegar nas pastas do computador e salvar o esperimento, o arquivo é salvo em .json
         FileBrowser.ShowSaveDialog((path) => { var _arquivo = File.CreateText(path); _arquivo.WriteLine(JsonUtility.ToJson(c));
             _arquivo.Close();
         }, null, false, null, "Save", "Save");

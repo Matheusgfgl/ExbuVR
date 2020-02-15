@@ -5,28 +5,20 @@ using UnityEngine.Experimental.UIElements;
 using UnityEngine.SceneManagement;
       
 
+
 public class Iniciar : MonoBehaviour
 {
-    int tipoV = 0;
-    public GameObject Dimensão2;
-        public GameObject Dimensao3;
-        public GameObject Ambos;
-
+    int tipoVisualizacao = 0;
+ 
+    //Mudando para tela de construcao em 2d
     public void Tipo2D(bool active){
             if(active == true)
             {
-            tipoV = 1;
+            tipoVisualizacao = 1;
             SceneManager.LoadScene("Escolha");
             }
         }
-    public void TipoConfig(bool active)
-    {
-        if (active == true)
-        {
-            SceneManager.LoadScene("2dd");
-        }
-    }
-
+    //Mudando para tela de construcao em 3d
     public void Tipo3D(bool active)
         {
             if (active == true)
@@ -35,12 +27,12 @@ public class Iniciar : MonoBehaviour
             }
         }
 
-
+    //Mudando para tela de construcao em ambos
     public void TipoAmbos(bool active)
             {
                 if (active == true)
                 {
-                    SceneManager.LoadScene("InicioAmbos");
+                    SceneManager.LoadScene("EscolhaAmbos");
                 }
 
             }
